@@ -6,7 +6,7 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/l01f/l01f.mk)
+$(call inherit-product, device/lge/l01f/full_l01f.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := l01f
