@@ -16,7 +16,7 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := l01f_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_l01f_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := l01f,g2,galbi
 
